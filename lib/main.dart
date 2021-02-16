@@ -2,21 +2,21 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 //--build in layout widget--
-//container -> property height dan width
+//container -> property margin
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("Contoh Height dan Width")),
+        appBar: AppBar(title: Text("Contoh Margin")),
         body: Container(
           margin: EdgeInsets.all(50),
           height: 200,
           width: 200,
-          alignment: Alignment.center,
+          alignment: Alignment.topLeft,
           color: Colors.blueGrey,
           child: Text(
-            'Semangat Belajar',
+            'Semangat Belajar Flutter',
             style: TextStyle(fontSize: 20, color: Colors.white),
           )
         )
@@ -24,6 +24,29 @@ class MyApp extends StatelessWidget {
     );
   }
 } 
+
+//container -> property height dan width
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         appBar: AppBar(title: Text("Contoh Height dan Width")),
+//         body: Container(
+//           margin: EdgeInsets.all(50),
+//           height: 200,
+//           width: 200,
+//           alignment: Alignment.center,
+//           color: Colors.blueGrey,
+//           child: Text(
+//             'Semangat Belajar',
+//             style: TextStyle(fontSize: 20, color: Colors.white),
+//           )
+//         )
+//       ),
+//     );
+//   }
+// } 
 
 //container -> property color
 // class MyApp extends StatelessWidget {
