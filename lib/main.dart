@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 //--row and column--
-//row
+//column
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
