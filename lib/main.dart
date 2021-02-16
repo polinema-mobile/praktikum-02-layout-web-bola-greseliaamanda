@@ -2,28 +2,53 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 //--build in layout widget--
-//container -> property margin
+//container -> property padding
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text("Contoh Margin")),
+        appBar: AppBar(title: Text("Contoh Padding")),
         body: Container(
-          margin: EdgeInsets.all(50),
+          padding: EdgeInsets.only(left: 20),
+          margin: EdgeInsets.all(20),
           height: 200,
           width: 200,
           alignment: Alignment.topLeft,
           color: Colors.blueGrey,
           child: Text(
-            'Semangat Belajar Flutter',
-            style: TextStyle(fontSize: 20, color: Colors.white),
+            'Ayo Belajar Flutter',
+          style: TextStyle(fontSize: 20, color: Colors.white),
           )
         )
       ),
     );
   }
 } 
+
+
+//container -> property margin
+// class MyApp extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Scaffold(
+//         appBar: AppBar(title: Text("Contoh Margin")),
+//         body: Container(
+//           margin: EdgeInsets.all(50),
+//           height: 200,
+//           width: 200,
+//           alignment: Alignment.topLeft,
+//           color: Colors.blueGrey,
+//           child: Text(
+//             'Semangat Belajar Flutter',
+//             style: TextStyle(fontSize: 20, color: Colors.white),
+//           )
+//         )
+//       ),
+//     );
+//   }
+// } 
 
 //container -> property height dan width
 // class MyApp extends StatelessWidget {
