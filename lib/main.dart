@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget {
 @override
   Widget build(BuildContext context) {
   return MaterialApp(
-  home:Image(image: NetworkImage('https://image.freepik.com/free-vector/cartoon-owl-tree-branch_194935-43.jpg'),
-  ),
-  );
+    home:Image(image: NetworkImage('https://image.freepik.com/free-vector/cartoon-owl-tree-branch_194935-43.jpg'),
+    ),
+    );
   }
 } 
 
