@@ -24,6 +24,8 @@ class MyApp extends StatelessWidget {
                 BeritaTerbaru(),
                 BeritaUtama(),
                 BeritaLain(),
+                BeritaLain(),
+                BeritaLain(),
               ],
             ), 
           ),

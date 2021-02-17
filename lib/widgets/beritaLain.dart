@@ -23,7 +23,7 @@ class BeritaLain extends StatelessWidget {
               ),
             ),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Expanded(
                   child: FlatButton(
@@ -53,6 +53,13 @@ class BeritaLain extends StatelessWidget {
               ],
             ),
           ),
+          Container(
+            padding: const EdgeInsets.all(10.0),
+            child: Text(
+              "Barcelona Feb 13, 2021                                        ", 
+              style: TextStyle(color: Colors.black, fontSize: 15),
+            ),
+          )
         ],
         ),
     );

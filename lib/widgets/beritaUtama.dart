@@ -28,7 +28,7 @@ class BeritaUtama extends StatelessWidget {
             ),
           ),
           Container(
-            padding: const EdgeInsets.all(15.0),
+            padding: const EdgeInsets.all(14.0),
             color: Colors.purple,
             child: Text(
               "Transfer                                                                          ", 
