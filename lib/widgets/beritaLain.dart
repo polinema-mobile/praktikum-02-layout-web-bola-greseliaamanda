@@ -23,43 +23,32 @@ class BeritaLain extends StatelessWidget {
               ),
             ),
             child: Row(
-              //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Expanded(
-                  child: FlatButton(
-                    onPressed: () {},
-                    child: Image(
-                      image: NetworkImage(
-                        "https://ligacdn.com/storage/images/news/2021/02/13/koeman-heran-pique-tuduh-wasit-telah-untungkan-madrid.jpeg"
+                      child: Image.network(
+                        "https://images.daznservices.com/di/library/GOAL/c0/68/gerard-pique-barcelona-yellow-card-2020-21_1b5pixs2oir8s1hy0nwfy1tnrz.jpg?t=1931977831&quality=60&w=1200&h=800"
                       ),
-                      ),
-                  ),
-                ),
-                SizedBox(
-                  width: 2,
                 ),
                 Expanded(
                   child: FlatButton(
                     onPressed: () {},
                   child: Text(
                     "Pique Bilang Wasit Untungkan Madrid, Koeman Tepuk Jidat",
-                    style: TextStyle(fontSize: 15),
+                    style: TextStyle(fontSize: 10, fontWeight: FontWeight.w600),
                   ),
                   )
-                ),
-                SizedBox(
-                  width: 2,
                 ),
               ],
             ),
           ),
           Container(
             padding: const EdgeInsets.all(10.0),
+            alignment: Alignment.centerLeft,
             child: Text(
-              "Barcelona Feb 13, 2021                                        ", 
-              style: TextStyle(color: Colors.black, fontSize: 15),
+              "Barcelona Feb 13, 2021", 
+              style: TextStyle(color: Colors.black, fontSize: 10, fontWeight: FontWeight.w600),
             ),
-          )
+          ),
         ],
         ),
     );

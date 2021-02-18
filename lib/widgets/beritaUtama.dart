@@ -8,15 +8,13 @@ class BeritaUtama extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
       decoration: BoxDecoration(
         border: Border.all(color: Colors.purple) 
       ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.network(
-            "https://d10dnch8g6iuzs.cloudfront.net/picture/54020210113193826396"
+            "https://images.daznservices.com/di/library/GOAL/96/c2/diego-costa_1dq1b6p5g1d1w1fhzzirww8bie.jpg?t=-1517427818&quality=100"
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -28,11 +26,12 @@ class BeritaUtama extends StatelessWidget {
             ),
           ),
           Container(
-            padding: const EdgeInsets.all(14.0),
+            padding: const EdgeInsets.all(10.0),
+            alignment: Alignment.centerLeft,
             color: Colors.purple,
             child: Text(
-              "Transfer                                                                          ", 
-              style: TextStyle(color: Colors.black, fontSize: 15),
+              "Transfer", 
+              style: TextStyle(color: Colors.black, fontSize: 12, fontWeight: FontWeight.w600),
             ),
           ),
         ],

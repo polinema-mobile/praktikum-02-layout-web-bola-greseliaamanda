@@ -8,16 +8,14 @@ class BeritaTerbaru extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Container(
-      margin: const EdgeInsets.only(top: 0),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Expanded(
             child: FlatButton(
               onPressed: () {},
               child: Text(
                 "BERITA TERBARU",
-                style: TextStyle(fontSize: 12),
+                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
               ),
             )
             ),
@@ -29,7 +27,7 @@ class BeritaTerbaru extends StatelessWidget {
               onPressed: () {},
               child: Text(
                 "PERTANDINGAN HARI INI",
-                style: TextStyle(fontSize: 12),
+                style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
               ),
             )
             ),
